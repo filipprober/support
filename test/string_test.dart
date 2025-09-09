@@ -91,6 +91,7 @@ void main() {
   });
 
   test('lcfirst', () {
+    expect("", "".lcfirst());
     expect("support", "Support".lcfirst());
     expect("dart support", "Dart support".lcfirst());
     expect("мама", "Мама".lcfirst());
@@ -109,6 +110,7 @@ void main() {
   });
 
   test('ucfirst', () {
+    expect("", "".ucfirst());
     expect("Support", "support".ucfirst());
     expect("Dart support", "dart support".ucfirst());
     expect("Мама", "мама".ucfirst());

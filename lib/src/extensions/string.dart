@@ -107,7 +107,7 @@ extension StringExtension on String {
       return this;
     }
 
-    return this[0].toLowerCase() + substring(1);
+    return lower()[0] + substring(1);
   }
 
   /// Convert the given string to lower-case.
@@ -117,6 +117,10 @@ extension StringExtension on String {
 
   /// Make a string's first character uppercase.
   String ucfirst() {
+    if (isEmpty) {
+      return this;
+    }
+
     return upper()[0] + substring(1);
   }
 
