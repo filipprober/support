@@ -1,5 +1,8 @@
 import 'package:support/string.dart';
 
+///
+/// Example of using the `after` extension method on String.
+///
 void main() {
   print("hannah".after("han"));     // Output: "nah"
   print("hannah".after("n"));       // Output: "nah"
