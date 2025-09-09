@@ -13,6 +13,19 @@ void main() {
     expect("nah", "han2nah".after(2));
   });
 
+  test('afterLast', () {
+    expect("tte", "yvette".afterLast("yve"));
+    expect("e", "yvette".afterLast("t"));
+    expect("e", "ééé yvette".afterLast("t"));
+    expect("", "yvette".afterLast("tte"));
+    expect("yvette", "yvette".afterLast("xxxx"));
+    expect("yvette", "yvette".afterLast(""));
+    expect("te", "yv0et0te".afterLast("0"));
+    expect("te", "yv0et0te".afterLast(0));
+    expect("te", "yv2et2te".afterLast(2));
+    expect("foo", "----foo".afterLast("---"));
+  });
+
   test('reverse', () {
     expect("FooBar", "raBooF".reverse());
     expect("Teniszütő", "őtüzsineT".reverse());
