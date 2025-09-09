@@ -1,5 +1,11 @@
 # Support
 
+![Total Downloads](https://img.shields.io/pub/dm/support)
+![Latest Version](https://img.shields.io/pub/v/support)
+![License](https://img.shields.io/pub/license/support)
+![Points](https://img.shields.io/pub/points/support)
+![Likes](https://img.shields.io/pub/likes/support)
+
 A support library for Dart and Flutter projects.
 
 ## Examples
