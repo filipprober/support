@@ -2,7 +2,7 @@
 
 ![Total Downloads](https://img.shields.io/pub/dm/support)
 ![Latest Version](https://img.shields.io/pub/v/support)
-![License](https://img.shields.io/pub/license/support)
+![License](https://img.shields.io/pub/l/support)
 ![Points](https://img.shields.io/pub/points/support)
 ![Likes](https://img.shields.io/pub/likes/support)
 
