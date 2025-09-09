@@ -76,6 +76,20 @@ void main() {
     expect("nothing", "nothing".between("foo", "bar"));
   });
 
+  test('betweenFirst', () {
+    expect("abc", "abc".betweenFirst("", "c"));
+    expect("abc", "abc".betweenFirst("a", ""));
+    expect("abc", "abc".betweenFirst("", ""));
+    expect("b", "abc".betweenFirst("a", "c"));
+    expect("b", "dddabc".betweenFirst("a", "c"));
+    expect("b", "abcddd".betweenFirst("a", "c"));
+    expect("b", "dddabcddd".betweenFirst("a", "c"));
+    expect("nn", "hannah".betweenFirst("ha", "ah"));
+    expect("a", "[a]ab[b]".betweenFirst("[", "]"));
+    expect("foo", "foofoobar".betweenFirst("foo", "bar"));
+    expect("", "foobarbar".betweenFirst("foo", "bar"));
+  });
+
   test('reverse', () {
     expect("FooBar", "raBooF".reverse());
     expect("Teniszütő", "őtüzsineT".reverse());
