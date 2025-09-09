@@ -1,3 +1,7 @@
+## 0.2.3
+
+- Added `example/README.md` for examples documentation
+
 ## 0.2.2
 
 - Fixed `example` folder structure
