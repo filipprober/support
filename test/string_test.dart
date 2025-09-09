@@ -26,6 +26,23 @@ void main() {
     expect("foo", "----foo".afterLast("---"));
   });
 
+  test('before', () {
+    expect("han", "hannah".before("nah"));
+    expect("ha", "hannah".before("n"));
+    expect("ééé ", "ééé hannah".before("han"));
+    expect("hannah", "hannah".before("xxxx"));
+    expect("hannah", "hannah".before(""));
+    expect("han", "han0nah".before("0"));
+    expect("han", "han0nah".before(0));
+    expect("han", "han2nah".before(2));
+    expect("", "".before(""));
+    expect("", "".before("a"));
+    expect("", "a".before("a"));
+    expect("foo", "foo@bar.com".before("@"));
+    expect("foo", "foo@@bar.com".before("@"));
+    expect("", "@foo@bar.com".before("@"));
+  });
+
   test('reverse', () {
     expect("FooBar", "raBooF".reverse());
     expect("Teniszütő", "őtüzsineT".reverse());
