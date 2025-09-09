@@ -4,6 +4,7 @@
 - Added `String.between()`
 - Added `String.betweenFirst()`
 - Added `String.lower()`
+- Added `String.upper()`
 
 ## 0.2.3
 

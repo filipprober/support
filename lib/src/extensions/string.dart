@@ -106,6 +106,11 @@ extension StringExtension on String {
     return toLowerCase();
   }
 
+  /// Convert the given string to upper-case.
+  String upper() {
+    return toUpperCase();
+  }
+
   /// Reverse the given string.
   String reverse() {
     return split('').reversed.join();

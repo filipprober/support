@@ -100,4 +100,9 @@ void main() {
     expect("Teniszütő", "őtüzsineT".reverse());
     expect("❤MultiByte☆", "☆etyBitluM❤".reverse());
   });
+
+  test('upper', () {
+    expect("FOO BAR BAZ", "foo bar baz".upper());
+    expect("FOO BAR BAZ", "foO bAr BaZ".upper());
+  });
 }

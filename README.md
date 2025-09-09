@@ -18,6 +18,7 @@ A collection of extension methods and helper classes for Dart projects.
 - [String.betweenFirst()](https://github.com/filipprober/support/tree/0.x/example/string_between_first.dart)
 - [String.lower()](https://github.com/filipprober/support/tree/0.x/example/string_lower.dart)
 - [String.reverse()](https://github.com/filipprober/support/tree/0.x/example/string_reverse.dart)
+- [String.upper()](https://github.com/filipprober/support/tree/0.x/example/string_upper.dart)
 
 ## License
 
