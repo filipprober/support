@@ -1,5 +1,5 @@
 name: support
-description: A Support Package for Dart.
+description: A collection of extension methods and helper classes for Dart projects.
 version: 0.2.0
 
 repository: https://github.com/filipprober/support
