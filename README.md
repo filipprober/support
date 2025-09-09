@@ -18,4 +18,4 @@ A collection of extension methods and helper classes for Dart projects.
 
 ## License
 
-Support is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Support is licensed under the MIT License. See the [LICENSE](https://github.com/filipprober/support/blob/0.x/LICENSE) file for details.

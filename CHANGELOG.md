@@ -1,3 +1,7 @@
+## 0.2.4
+
+- Fixed `LICENSE` link in `README.md` for documentation
+
 ## 0.2.3
 
 - Added `example/README.md` for examples documentation
