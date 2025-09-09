@@ -115,6 +115,11 @@ extension StringExtension on String {
     return toLowerCase();
   }
 
+  /// Make a string's first character uppercase.
+  String ucfirst() {
+    return upper()[0] + substring(1);
+  }
+
   /// Convert the given string to upper-case.
   String upper() {
     return toUpperCase();

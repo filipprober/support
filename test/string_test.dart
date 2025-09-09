@@ -108,6 +108,13 @@ void main() {
     expect("❤MultiByte☆", "☆etyBitluM❤".reverse());
   });
 
+  test('ucfirst', () {
+    expect("Support", "support".ucfirst());
+    expect("Dart support", "dart support".ucfirst());
+    expect("Мама", "мама".ucfirst());
+    expect("Мама мыла раму", "мама мыла раму".ucfirst());
+  });
+
   test('upper', () {
     expect("FOO BAR BAZ", "foo bar baz".upper());
     expect("FOO BAR BAZ", "foO bAr BaZ".upper());

@@ -5,6 +5,7 @@
 - Added `String.betweenFirst()`
 - Added `String.lcfirst()`
 - Added `String.lower()`
+- Added `String.ucfirst()`
 - Added `String.upper()`
 
 ## 0.2.3
