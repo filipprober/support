@@ -1,3 +1,7 @@
+## 0.2.1
+
+- Updated `README.md`
+
 ## 0.2.0
 
 - Added `String.after()`
