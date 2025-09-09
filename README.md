@@ -6,7 +6,7 @@
 ![Points](https://img.shields.io/pub/points/support)
 ![Likes](https://img.shields.io/pub/likes/support)
 
-A support library for Dart and Flutter projects.
+A collection of extension methods and helper classes for Dart projects.
 
 ## Examples
 
