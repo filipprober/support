@@ -63,6 +63,25 @@ extension StringExtension on String {
     return substring(0, index);
   }
 
+  /// Get the portion of a string between two given values.
+  String between(dynamic from, dynamic to) {
+    if (from is! String && from is! int) {
+      throw ArgumentError('From must be a String or an int');
+    }
+    if (to is! String && to is! int) {
+      throw ArgumentError('To must be a String or an int');
+    }
+
+    from = from.toString();
+    to = to.toString();
+
+    if (from.isEmpty || to.isEmpty) {
+      return this;
+    }
+
+    return this.after(from).beforeLast(to);
+  }
+
   /// Reverse the given string.
   String reverse() {
     return split('').reversed.join();

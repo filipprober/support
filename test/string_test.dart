@@ -59,6 +59,23 @@ void main() {
     expect("yvette", "yvette\tyv0et0te".beforeLast("\t"));
   });
 
+  test('between', () {
+    expect("abc", "abc".between("", "c"));
+    expect("abc", "abc".between("a", ""));
+    expect("abc", "abc".between("", ""));
+    expect("b", "abc".between("a", "c"));
+    expect("b", "dddabc".between("a", "c"));
+    expect("b", "abcddd".between("a", "c"));
+    expect("b", "dddabcddd".between("a", "c"));
+    expect("nn", "hannah".between("ha", "ah"));
+    expect("a]ab[b", "[a]ab[b]".between("[", "]"));
+    expect("foo", "foofoobar".between("foo", "bar"));
+    expect("bar", "foobarbar".between("foo", "bar"));
+    expect("234", "12345".between(1, 5));
+    expect("45", "123456789".between("123", "6789"));
+    expect("nothing", "nothing".between("foo", "bar"));
+  });
+
   test('reverse', () {
     expect("FooBar", "raBooF".reverse());
     expect("Teniszütő", "őtüzsineT".reverse());
