@@ -13,6 +13,7 @@ A collection of extension methods and helper classes for Dart projects.
 - [String.after()](examples/string/after.dart)
 - [String.afterLast()](examples/string/after_last.dart)
 - [String.before()](examples/string/before.dart)
+- [String.beforeLast()](examples/string/before_last.dart)
 - [String.reverse()](examples/string/reverse.dart)
 
 ## License

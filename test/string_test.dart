@@ -43,6 +43,22 @@ void main() {
     expect("", "@foo@bar.com".before("@"));
   });
 
+  test('beforeLast', () {
+    expect("yve", "yvette".beforeLast("tte"));
+    expect("yvet", "yvette".beforeLast("t"));
+    expect("ééé ", "ééé yvette".beforeLast("yve"));
+    expect("", "yvette".beforeLast("yve"));
+    expect("yvette", "yvette".beforeLast("xxxx"));
+    expect("yvette", "yvette".beforeLast(""));
+    expect("yv0et", "yv0et0te".beforeLast("0"));
+    expect("yv0et", "yv0et0te".beforeLast(0));
+    expect("yv2et", "yv2et2te".beforeLast(2));
+    expect("", "".beforeLast("test"));
+    expect("", "yvette".beforeLast("yvette"));
+    expect("support", "support package".beforeLast(" "));
+    expect("yvette", "yvette\tyv0et0te".beforeLast("\t"));
+  });
+
   test('reverse', () {
     expect("FooBar", "raBooF".reverse());
     expect("Teniszütő", "őtüzsineT".reverse());
