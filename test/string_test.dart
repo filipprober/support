@@ -90,6 +90,11 @@ void main() {
     expect("", "foobarbar".betweenFirst("foo", "bar"));
   });
 
+  test('lower', () {
+    expect("foo bar baz", "FOO BAR BAZ".lower());
+    expect("foo bar baz", "foO bAr BaZ".lower());
+  });
+
   test('reverse', () {
     expect("FooBar", "raBooF".reverse());
     expect("Teniszütő", "őtüzsineT".reverse());

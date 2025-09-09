@@ -2,6 +2,8 @@
 
 - Fixed `LICENSE` link in `README.md` for documentation
 - Added `String.between()`
+- Added `String.betweenFirst()`
+- Added `String.lower()`
 
 ## 0.2.3
 

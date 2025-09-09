@@ -101,6 +101,11 @@ extension StringExtension on String {
     return this.after(from).before(to);
   }
 
+  /// Convert the given string to lower-case.
+  String lower() {
+    return toLowerCase();
+  }
+
   /// Reverse the given string.
   String reverse() {
     return split('').reversed.join();
