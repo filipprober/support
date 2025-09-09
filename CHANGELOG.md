@@ -3,6 +3,7 @@
 - Fixed `LICENSE` link in `README.md` for documentation
 - Added `String.between()`
 - Added `String.betweenFirst()`
+- Added `String.lcfirst()`
 - Added `String.lower()`
 - Added `String.upper()`
 

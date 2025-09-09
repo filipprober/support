@@ -20,6 +20,10 @@ Get the portion of a string between two given values.
 [String.betweenFirst()](https://github.com/filipprober/support/tree/0.x/example/string_between_first.dart)
 Get the smallest possible portion of a string between two given values.
 
+[String.lcfirst()](https://github.com/filipprober/support/tree/0.x/example/string_lcfirst.dart)
+
+Convert the first character of the given string to lower-case.
+
 [String.lower()](https://github.com/filipprober/support/tree/0.x/example/string_lower.dart)
 
 Convert the given string to lower-case.

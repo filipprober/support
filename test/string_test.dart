@@ -90,6 +90,13 @@ void main() {
     expect("", "foobarbar".betweenFirst("foo", "bar"));
   });
 
+  test('lcfirst', () {
+    expect("support", "Support".lcfirst());
+    expect("dart support", "Dart support".lcfirst());
+    expect("мама", "Мама".lcfirst());
+    expect("мама мыла раму", "Мама мыла раму".lcfirst());
+  });
+
   test('lower', () {
     expect("foo bar baz", "FOO BAR BAZ".lower());
     expect("foo bar baz", "foO bAr BaZ".lower());

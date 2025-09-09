@@ -101,6 +101,15 @@ extension StringExtension on String {
     return this.after(from).before(to);
   }
 
+  /// Convert the first character of the given string to lower-case.
+  String lcfirst() {
+    if (isEmpty) {
+      return this;
+    }
+
+    return this[0].toLowerCase() + substring(1);
+  }
+
   /// Convert the given string to lower-case.
   String lower() {
     return toLowerCase();
