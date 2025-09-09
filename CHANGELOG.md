@@ -1,3 +1,7 @@
+## 0.2.2
+
+- Fixed `example` folder structure
+
 ## 0.2.1
 
 - Updated `README.md`

@@ -10,11 +10,11 @@ A collection of extension methods and helper classes for Dart projects.
 
 ## Examples
 
-- [String.after()](https://github.com/filipprober/support/blob/main/example/string/after.dart)
-- [String.afterLast()](https://github.com/filipprober/support/blob/main/example/string/after_last.dart)
-- [String.before()](https://github.com/filipprober/support/blob/main/example/string/before.dart)
-- [String.beforeLast()](https://github.com/filipprober/support/blob/main/example/string/before_last.dart)
-- [String.reverse()](https://github.com/filipprober/support/blob/main/example/string/reverse.dart)
+- [String.after()](https://github.com/filipprober/support/tree/0.x/example/string_after.dart)
+- [String.afterLast()](https://github.com/filipprober/support/tree/0.x/example/string_after_last.dart)
+- [String.before()](https://github.com/filipprober/support/tree/0.x/example/string_before.dart)
+- [String.beforeLast()](https://github.com/filipprober/support/tree/0.x/example/string_before_last.dart)
+- [String.reverse()](https://github.com/filipprober/support/tree/0.x/example/string_reverse.dart)
 
 ## License
 
