@@ -133,4 +133,13 @@ extension StringExtension on String {
   String reverse() {
     return split('').reversed.join();
   }
+
+  /// Take the first or last {limit} characters of a string.
+  String take(int limit) {
+    if (limit < 0) {
+      return substring(length + limit.clamp(-length, 0), length);
+    }
+
+    return substring(0, limit.clamp(0, length));
+  }
 }

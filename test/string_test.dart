@@ -109,6 +109,15 @@ void main() {
     expect("❤MultiByte☆", "☆etyBitluM❤".reverse());
   });
 
+  test('take', () {
+    expect("ab", "abcdef".take(2));
+    expect("ef", "abcdef".take(-2));
+    expect("", "abcdef".take(0));
+    expect("", "".take(2));
+    expect("abcdef", "abcdef".take(10));
+    expect("ü", "üöä".take(1));
+  });
+
   test('ucfirst', () {
     expect("", "".ucfirst());
     expect("Support", "support".ucfirst());

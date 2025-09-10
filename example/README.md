@@ -31,6 +31,10 @@ Convert the given string to lower-case.
 [String.reverse()](https://github.com/filipprober/support/tree/0.x/example/string_reverse.dart)
 Reverse the given string.
 
+[String.take()](https://github.com/filipprober/support/tree/0.x/example/string_take.dart)
+
+Take the first or last {limit} characters of a string.
+
 [String.ucfirst()](https://github.com/filipprober/support/tree/0.x/example/string_ucfirst.dart)
 
 Make a string's first character uppercase.

@@ -19,6 +19,7 @@ A collection of extension methods and helper classes for Dart projects.
 - [String.lcfirst()](https://github.com/filipprober/support/tree/0.x/example/string_lcfirst.dart)
 - [String.lower()](https://github.com/filipprober/support/tree/0.x/example/string_lower.dart)
 - [String.reverse()](https://github.com/filipprober/support/tree/0.x/example/string_reverse.dart)
+- [String.take()](https://github.com/filipprober/support/tree/0.x/example/string_take.dart)
 - [String.ucfirst()](https://github.com/filipprober/support/tree/0.x/example/string_ucfirst.dart)
 - [String.upper()](https://github.com/filipprober/support/tree/0.x/example/string_upper.dart)
 
