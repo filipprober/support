@@ -129,6 +129,14 @@ void main() {
     expect("❤MultiByte☆", "☆etyBitluM❤".reverse());
   });
 
+  test('singular', () {
+    expect("cat", "cats".singular());
+    expect("Dog", "Dogs".singular());
+    expect("Tomato", "Tomatoes".singular());
+    expect("UserGroup", "UserGroups".singular());
+    expect("ProductCategory", "ProductCategories".singular());
+  });
+
   test('take', () {
     expect("ab", "abcdef".take(2));
     expect("ef", "abcdef".take(-2));

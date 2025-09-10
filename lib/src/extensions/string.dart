@@ -195,6 +195,14 @@ extension StringExtension on String {
   }
 
   ///
+  /// Get the singular form of an English word.
+  ///
+  String singular() {
+    final pluralize = Pluralize();
+    return pluralize.singular(this);
+  }
+
+  ///
   /// Take the first or last [limit] characters of a string.
   ///
   /// **Parameters**

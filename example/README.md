@@ -36,6 +36,10 @@ Get the plural form of an English word.
 
 Reverse the given string.
 
+[String.singular()](https://github.com/filipprober/support/tree/0.x/example/string_singular.dart)
+
+Get the singular form of an English word.
+
 [String.take()](https://github.com/filipprober/support/tree/0.x/example/string_take.dart)
 
 Take the first or last {limit} characters of a string.
