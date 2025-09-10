@@ -40,6 +40,10 @@ Reverse the given string.
 
 Get the singular form of an English word.
 
+[String.snake()](https://github.com/filipprober/support/tree/0.x/example/string_snake.dart)
+
+Get the singular form of an English word.
+
 [String.take()](https://github.com/filipprober/support/tree/0.x/example/string_take.dart)
 
 Take the first or last {limit} characters of a string.

@@ -129,6 +129,18 @@ void main() {
     expect("❤MultiByte☆", "☆etyBitluM❤".reverse());
   });
 
+  test('snake', () {
+    expect("d_a_r_t_package", "DARTPackage".snake());
+    expect("dart_framework", "DartFramework".snake());
+    expect("dart package", "DartPackage".snake(" "));
+    expect("dart_framework", "Dart   Framework".snake());
+
+    expect("foo-bar", "foo-bar".snake());
+    expect("foo-_bar", "Foo-Bar".snake());
+    expect("foo__bar", "Foo_Bar".snake());
+    expect("żółtałódka", "ŻółtaŁódka".snake());
+  });
+
   test('singular', () {
     expect("cat", "cats".singular());
     expect("Dog", "Dogs".singular());

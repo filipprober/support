@@ -203,6 +203,27 @@ extension StringExtension on String {
   }
 
   ///
+  /// Convert a string to snake_case.
+  ///
+  /// **Parameters**
+  /// * [delimiter] - [String] (default: '_')
+  ///
+  String snake([String delimiter = '_']) {
+    if (this != toLowerCase()) {
+      String processed = replaceAll(RegExp(r'\s+'), '');
+
+      processed = processed.replaceAllMapped(
+        RegExp(r'(.)(?=[A-Z])'),
+        (match) => '${match.group(1)}$delimiter',
+      );
+
+      return processed.toLowerCase();
+    }
+
+    return this;
+  }
+
+  ///
   /// Take the first or last [limit] characters of a string.
   ///
   /// **Parameters**
