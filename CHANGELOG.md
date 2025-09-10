@@ -5,6 +5,7 @@
 - Added `String.betweenFirst()`
 - Added `String.lcfirst()`
 - Added `String.lower()`
+- Added `String.plural()`
 - Added `String.take()`
 - Added `String.ucfirst()`
 - Added `String.upper()`

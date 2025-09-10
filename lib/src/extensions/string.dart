@@ -1,3 +1,5 @@
+import 'package:pluralize/pluralize.dart';
+
 extension StringExtension on String {
   ///
   /// Return the remainder of a string after the first occurrence of a given value.
@@ -204,6 +206,21 @@ extension StringExtension on String {
     }
 
     return substring(0, limit.clamp(0, length));
+  }
+
+  ///
+  /// Get the plural form of an English word.
+  ///
+  /// **Parameters**
+  /// * [count] - [int] (default: 2)
+  ///
+  String plural([int count = 2]) {
+    if (count == 1) {
+      return this;
+    }
+
+    final pluralize = Pluralize();
+    return pluralize.plural(this);
   }
 
   ///

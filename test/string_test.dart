@@ -103,6 +103,26 @@ void main() {
     expect("foo bar baz", "foO bAr BaZ".lower());
   });
 
+  test('plural', () {
+    expect("cats", "cat".plural());
+    expect("Dogs", "Dog".plural());
+    expect("Tomatoes", "Tomato".plural());
+    expect("UserGroups", "UserGroup".plural());
+    expect("ProductCategories", "ProductCategory".plural());
+
+    expect("cat", "cat".plural(1));
+    expect("Dog", "Dog".plural(1));
+    expect("Tomato", "Tomato".plural(1));
+    expect("UserGroup", "UserGroup".plural(1));
+    expect("ProductCategory", "ProductCategory".plural(1));
+
+    expect("cats", "cat".plural(-1));
+    expect("Dogs", "Dog".plural(-1));
+    expect("Tomatoes", "Tomato".plural(-1));
+    expect("UserGroups", "UserGroup".plural(-1));
+    expect("ProductCategories", "ProductCategory".plural(-1));
+  });
+
   test('reverse', () {
     expect("FooBar", "raBooF".reverse());
     expect("Teniszütő", "őtüzsineT".reverse());

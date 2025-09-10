@@ -28,7 +28,12 @@ Convert the first character of the given string to lower-case.
 
 Convert the given string to lower-case.
 
+[String.plural()](https://github.com/filipprober/support/tree/0.x/example/string_lower.dart)
+
+Get the plural form of an English word.
+
 [String.reverse()](https://github.com/filipprober/support/tree/0.x/example/string_reverse.dart)
+
 Reverse the given string.
 
 [String.take()](https://github.com/filipprober/support/tree/0.x/example/string_take.dart)
@@ -42,4 +47,3 @@ Make a string's first character uppercase.
 [String.upper()](https://github.com/filipprober/support/tree/0.x/example/string_upper.dart)
 
 Convert the given string to upper-case.
-
