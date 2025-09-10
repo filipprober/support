@@ -1,4 +1,4 @@
-## 0.2.4
+## 0.3.0
 
 - Fixed `LICENSE` link in `README.md` for documentation
 - Added `String.between()`
