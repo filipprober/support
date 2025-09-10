@@ -185,7 +185,9 @@ extension StringExtension on String {
     return toLowerCase();
   }
 
+  ///
   /// Reverse the given string.
+  ///
   String reverse() {
     return split('').reversed.join();
   }
