@@ -3,10 +3,12 @@
 - Fixed `LICENSE` link in `README.md` for documentation
 - Added `String.between()`
 - Added `String.betweenFirst()`
+- Added `String.kebab()`
 - Added `String.lcfirst()`
 - Added `String.lower()`
 - Added `String.plural()`
 - Added `String.singular()`
+- Added `String.snake()`
 - Added `String.take()`
 - Added `String.ucfirst()`
 - Added `String.upper()`
