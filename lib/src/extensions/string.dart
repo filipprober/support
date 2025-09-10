@@ -138,7 +138,7 @@ extension StringExtension on String {
       return this;
     }
 
-    return this.after(from).beforeLast(to);
+    return after(from).beforeLast(to);
   }
 
   ///
@@ -166,7 +166,7 @@ extension StringExtension on String {
       return this;
     }
 
-    return this.after(from).before(to);
+    return after(from).before(to);
   }
 
   ///
