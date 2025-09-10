@@ -170,6 +170,13 @@ extension StringExtension on String {
   }
 
   ///
+  /// Convert a string to kebab case.
+  ///
+  String kebab() {
+    return snake('-');
+  }
+
+  ///
   /// Convert the first character of the given string to lower-case.
   ///
   String lcfirst() {
@@ -203,7 +210,7 @@ extension StringExtension on String {
   }
 
   ///
-  /// Convert a string to snake_case.
+  /// Convert a string to snake case.
   ///
   /// **Parameters**
   /// * [delimiter] - [String] (default: '_')

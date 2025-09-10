@@ -90,6 +90,13 @@ void main() {
     expect("", "foobarbar".betweenFirst("foo", "bar"));
   });
 
+  test('kebab', () {
+    expect("support-package", "SupportPackage".kebab());
+    expect("support-package", "Support Package".kebab());
+    expect("support❤-package", "Support ❤ Package".kebab());
+    expect("", "".kebab());
+  });
+
   test('lcfirst', () {
     expect("", "".lcfirst());
     expect("support", "Support".lcfirst());
