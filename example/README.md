@@ -28,7 +28,7 @@ Convert the first character of the given string to lower-case.
 
 Convert the given string to lower-case.
 
-[String.plural()](https://github.com/filipprober/support/tree/0.x/example/string_lower.dart)
+[String.plural()](https://github.com/filipprober/support/tree/0.x/example/string_plural.dart)
 
 Get the plural form of an English word.
 
