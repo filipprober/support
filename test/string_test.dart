@@ -148,6 +148,20 @@ void main() {
     expect("żółtałódka", "ŻółtaŁódka".snake());
   });
 
+  test('startsWithAny', () {
+    expect(true, "jason".startsWithAny("jas"));
+    expect(true, "jason".startsWithAny("jason"));
+    expect(true, "jason".startsWithAny(["jas"]));
+    expect(true, "jason".startsWithAny(["day", "jas"]));
+    expect(false, "jason".startsWithAny("day"));
+    expect(false, "jason".startsWithAny(["day"]));
+    expect(false, "jason".startsWithAny(null));
+    expect(false, "jason".startsWithAny([null]));
+    expect(false, "0123".startsWithAny([null]));
+    expect(true, "0123".startsWithAny(0));
+    expect(true, "0123".startsWithAny([0]));
+  });
+
   test('singular', () {
     expect("cat", "cats".singular());
     expect("Dog", "Dogs".singular());

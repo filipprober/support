@@ -231,6 +231,24 @@ extension StringExtension on String {
   }
 
   ///
+  /// Determine if a given string starts with any given substring.
+  ///
+  /// **Parameters**
+  /// * [needles] - [String] | [Iterable<String>]
+  ///
+  bool startsWithAny(dynamic needles) {
+    final needleList = switch (needles) {
+      String value => [value],
+      Iterable<String> value => value.toList(),
+      int i => [i.toString()],
+      Iterable<int> iter => iter.map((e) => e.toString()).toList(),
+      _ => [needles.toString()],
+    };
+
+    return needleList.any((needle) => needle.isNotEmpty && startsWith(needle));
+  }
+
+  ///
   /// Take the first or last [limit] characters of a string.
   ///
   /// **Parameters**
