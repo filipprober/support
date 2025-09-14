@@ -1,6 +1,10 @@
 # Release Notes for 0.x
 
-## [Unreleased](https://github.com/filipprober/support/compare/0.3.0...0.x)
+## [Unreleased](https://github.com/filipprober/support/compare/v0.3.1...0.x)
+
+## 0.3.1
+
+- Added `String.startsWithAny()`
 
 ## 0.3.0
 
