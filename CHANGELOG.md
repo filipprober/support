@@ -1,6 +1,10 @@
 # Release Notes for 0.x
 
-## [Unreleased](https://github.com/filipprober/support/compare/v0.3.1...0.x)
+## [Unreleased](https://github.com/filipprober/support_dart/compare/v0.3.1...0.x)
+
+## 0.3.2
+
+- Renamed GitHub `support` repository to `support_dart`
 
 ## 0.3.1
 
